@@ -12,7 +12,8 @@ void zapolnenieArray(int array[], int size) {
 
     // Вывод массива на экран
     cout << "Массив [" << size << "]: ";
-    for (int i = 0; i < size; ++i) 
+    for (int i = 0; i < size; ++i) //Пока значение счетчика i меньше значения переменной "размер", выполняется цикл.
+
     {
         cout << array[i] << " ";
     }
@@ -20,8 +21,8 @@ void zapolnenieArray(int array[], int size) {
 }
 
 int main() {
-    const int size1 = 5; // Размер первого массива
-    const int size2 = 8; // Размер второго массива
+    const int SIZE1 = 5; // Размер первого массива
+    const int SIZE2 = 8; // Размер второго массива
 
     int array1[size1];
     int array2[size2];
